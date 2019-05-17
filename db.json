@@ -1,0 +1,18 @@
+{
+    "customer":[
+        {
+            "name": "Sachin Bahegavankar",
+            "phone": "8888222180",
+            "address": "Punavale",
+            "membership": "Gold",
+            "id": 1
+        },
+        {
+            "name": "Sagar Bahegavankar",
+            "phone": "9890052952",
+            "address": "Punavale",
+            "membership": "Pro",
+            "id": 2
+        }
+    ]
+}
