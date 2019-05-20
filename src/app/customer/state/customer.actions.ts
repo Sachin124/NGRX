@@ -8,17 +8,17 @@ export enum CustomerActionTypes {
 }
 
 export class LoadCustomers implements Action {
-    readonly type = CustomerActionTypes.LOAD_CUSTOMERS
+    readonly type = CustomerActionTypes.LOAD_CUSTOMERS;
 }
 
 export class LoadCustomersSuccess implements Action {
-    readonly type = CustomerActionTypes.LOAD_CUSTOMERS_SUCCESS
+    readonly type = CustomerActionTypes.LOAD_CUSTOMERS_SUCCESS;
 
     constructor(public payload:Customer[]) { }
 }
 
 export class LoadCustomersFail implements Action {
-    readonly type = CustomerActionTypes.LOAD_CUSTOMERS_FAIL
+    readonly type = CustomerActionTypes.LOAD_CUSTOMERS_FAIL;
 
     constructor(public payload: string) { }
 }

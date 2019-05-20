@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { HttpClientModule } from '@angular/common/http';
+import { EffectsModule } from '@ngrx/effects';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +23,8 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
     ReactiveFormsModule,
     // import the ngrx store module
     StoreModule.forRoot({}),
+    HttpClientModule,
+    EffectsModule.forRoot([]),
     StoreDevtoolsModule.instrument(),
   ],
   providers: [],
